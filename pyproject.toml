@@ -1,0 +1,25 @@
+[project]
+name = "ai-brochure-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "loguru>=0.7.3",
+    "markdown>=3.10.2",
+    "openai>=2.46.0",
+    "pandas>=3.0.3",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "streamlit>=1.59.2",
+    "weasyprint>=69.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+    "pytest>=9.1.1",
+    "ruff>=0.15.22",
+]
