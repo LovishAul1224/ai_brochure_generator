@@ -6,3 +6,5 @@ outputs/
 *.pyc
 .DS_Store
 .streamlit/secrets.toml
+
+__init__.py
